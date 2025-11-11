@@ -71,7 +71,7 @@ for (char, frequency) in freq:
     print('%-4r|%12s' % (char, huffmanCode[char]))
 ```
 # Output:
-
+```
  Char | Huffman code 
 ----------------------
 'I'  |          01
@@ -86,6 +86,6 @@ for (char, frequency) in freq:
 ' '  |        0011
 'G'  |        0010
 
-
+```
 ## Result
 Thus the huffman coding was implemented to compress the data using python programming.
